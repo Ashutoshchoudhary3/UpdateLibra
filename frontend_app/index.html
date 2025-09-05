@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Research Assistant for Writers</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        textarea {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            font-family: 'Georgia', serif;
+            resize: vertical;
+            min-height: 120px;
+            transition: border-color 0.3s;
+        }
+        
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        select {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            font-family: 'Georgia', serif;
+            background: white;
+            cursor: pointer;
+        }
+        
+        .button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        .button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .result {
+            display: none;
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .result h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .result-content {
+            line-height: 1.6;
+            color: #444;
+            white-space: pre-wrap;
+            font-family: 'Georgia', serif;
+        }
+        
+        .error {
+            display: none;
+            background: #fee;
+            color: #c33;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            border-left: 4px solid #c33;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Research Assistant</h1>
+        <p class="subtitle">For Writers Who Want Authentic Human Voices</p>
+        
+        <form id="storyForm">
+            <div class="form-group">
+                <label for="summary">Story Summary</label>
+                <textarea id="summary" name="summary" placeholder="Enter your story summary here. Be as detailed or as brief as you like - our AI will deconstruct it into plot points and find authentic human-written descriptions to weave your chapter together." required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="genre">Genre</label>
+                <select id="genre" name="genre" required>
+                    <option value="">Select a genre</option>
+                    <option value="modern_high_school">Modern High School</option>
+                    <option value="fantasy_epic">Fantasy Epic</option>
+                    <option value="noir_detective">Noir Detective</option>
+                    <option value="sci_fi_space">Sci-Fi Space Opera</option>
+                    <option value="historical_romance">Historical Romance</option>
+                    <option value="horror_gothic">Horror Gothic</option>
+                    <option value="literary_fiction">Literary Fiction</option>
+                    <option value="thriller_espionage">Thriller Espionage</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="previousChapterSelect">Continue from Previous Chapter (Optional)</label>
+                <select id="previousChapterSelect" name="previousChapterSelect">
+                    <option value="">Start new story (no previous chapter)</option>
+                </select>
+            </div>
+            
+            <div class="form-group" id="previousChapterContentGroup" style="display: none;">
+                <label for="previousChapterContent">Previous Chapter Content</label>
+                <textarea id="previousChapterContent" name="previousChapterContent" readonly></textarea>
+            </div>
+            
+            <button type="submit" class="button" id="generateBtn">Generate Chapter</button>
+        </form>
+        
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Our AI agents are researching and weaving your chapter...</p>
+            <p>This may take a few minutes as we find authentic human-written descriptions.</p>
+        </div>
+        
+        <div class="error" id="error"></div>
+        
+        <div class="result" id="result">
+            <h3>Your Generated Chapter</h3>
+            <div style="margin-bottom: 15px; padding: 10px; background: #e8f4fd; border-radius: 5px; font-size: 14px;">
+                <strong>Chapter #<span id="chapterNumber"></span></strong> | 
+                <strong>Word Count:</strong> <span id="wordCount"></span> | 
+                <strong>ID:</strong> <span id="chapterId"></span>
+            </div>
+            <div class="result-content" id="chapterContent"></div>
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById('storyForm');
+        const loading = document.getElementById('loading');
+        const result = document.getElementById('result');
+        const error = document.getElementById('error');
+        const generateBtn = document.getElementById('generateBtn');
+        const previousChapterSelect = document.getElementById('previousChapterSelect');
+        const previousChapterContentGroup = document.getElementById('previousChapterContentGroup');
+        const previousChapterContent = document.getElementById('previousChapterContent');
+        
+        // Load available chapters on page load
+        async function loadChapters() {
+            try {
+                const response = await fetch('http://localhost:8000/chapters');
+                if (!response.ok) throw new Error('Failed to load chapters');
+                
+                const data = await response.json();
+                const chapters = data.chapters || [];
+                
+                // Clear existing options except the first one
+                previousChapterSelect.innerHTML = '<option value="">Start new story (no previous chapter)</option>';
+                
+                // Add chapters in reverse order (newest first)
+                chapters.reverse().forEach(chapter => {
+                    const option = document.createElement('option');
+                    option.value = chapter.id;
+                    option.textContent = `Chapter ${chapter.chapter_number}: ${chapter.summary.substring(0, 50)}...`;
+                    previousChapterSelect.appendChild(option);
+                });
+                
+            } catch (err) {
+                console.error('Error loading chapters:', err);
+            }
+        }
+        
+        // Handle chapter selection
+        previousChapterSelect.addEventListener('change', async (e) => {
+            const chapterId = e.target.value;
+            
+            if (chapterId) {
+                try {
+                    const response = await fetch(`http://localhost:8000/chapters/${chapterId}`);
+                    if (!response.ok) throw new Error('Failed to load chapter');
+                    
+                    const chapter = await response.json();
+                    previousChapterContent.value = chapter.chapter_content;
+                    previousChapterContentGroup.style.display = 'block';
+                } catch (err) {
+                    console.error('Error loading chapter content:', err);
+                    previousChapterContentGroup.style.display = 'none';
+                }
+            } else {
+                previousChapterContentGroup.style.display = 'none';
+                previousChapterContent.value = '';
+            }
+        });
+        
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            // Reset UI
+            error.style.display = 'none';
+            result.style.display = 'none';
+            loading.style.display = 'block';
+            generateBtn.disabled = true;
+            
+            const formData = {
+                summary: document.getElementById('summary').value,
+                genre: document.getElementById('genre').value,
+                previous_chapter_id: previousChapterSelect.value ? parseInt(previousChapterSelect.value) : null
+            };
+            
+            try {
+                const response = await fetch('http://localhost:8000/generate-chapter', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(formData)
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                
+                loading.style.display = 'none';
+                result.style.display = 'block';
+                document.getElementById('chapterContent').textContent = data.content;
+                document.getElementById('chapterNumber').textContent = data.chapter_number;
+                document.getElementById('wordCount').textContent = data.word_count;
+                document.getElementById('chapterId').textContent = data.chapter_id;
+                
+                // Reload chapters to include the new one
+                await loadChapters();
+                
+            } catch (err) {
+                loading.style.display = 'none';
+                error.style.display = 'block';
+                error.textContent = `Error generating chapter: ${err.message}`;
+            } finally {
+                generateBtn.disabled = false;
+            }
+        });
+        
+        // Load chapters on page load
+        loadChapters();
+    </script>
+</body>
+</html>

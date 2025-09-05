@@ -1,0 +1,412 @@
+
+#!/usr/bin/env python3
+"""
+AI Research Assistant for Writers - Mock System Launcher
+This script launches a complete test version without Gemini AI dependencies.
+"""
+
+import os
+import sys
+import subprocess
+import time
+import json
+import webbrowser
+from pathlib import Path
+from threading import Thread
+import signal
+
+class MockSystemLauncher:
+    def __init__(self):
+        self.project_root = Path(__file__).parent
+        self.ai_engine_dir = self.project_root / "ai_engine"
+        self.logs_dir = self.project_root / "logs"
+        
+        # Create logs directory
+        self.logs_dir.mkdir(exist_ok=True)
+        
+        self.processes = {}
+        self.running = True
+        
+    def log(self, message: str):
+        """Log message with timestamp"""
+        timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
+        log_message = f"[{timestamp}] {message}"
+        print(log_message)
+        
+        # Also write to log file
+        with open(self.logs_dir / "mock_system.log", "a") as f:
+            f.write(log_message + "\n")
+    
+    def start_ai_engine_mock(self):
+        """Start the mock AI Engine"""
+        self.log("🚀 Starting Mock AI Engine...")
+        
+        try:
+            process = subprocess.Popen([
+                sys.executable, "main_mock.py"
+            ], cwd=self.ai_engine_dir, 
+            stdout=open(self.logs_dir / "ai_engine_mock.log", "w"),
+            stderr=subprocess.STDOUT)
+            
+            self.processes['ai_engine'] = process
+            self.log("✅ Mock AI Engine started")
+            
+            # Wait for it to start
+            time.sleep(3)
+            return True
+            
+        except Exception as e:
+            self.log(f"❌ Failed to start Mock AI Engine: {e}")
+            return False
+    
+    def create_test_frontend(self):
+        """Create a simple test frontend"""
+        self.log("🎨 Creating test frontend...")
+        
+        frontend_content = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Research Assistant for Writers - TEST MODE</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Georgia', serif; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+            min-height: 100vh; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            padding: 20px; 
+        }
+        .container { 
+            background: white; 
+            border-radius: 20px; 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1); 
+            padding: 40px; 
+            max-width: 800px; 
+            width: 100%; 
+        }
+        .test-mode {
+            background: #ff6b6b;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        h1 { 
+            color: #333; 
+            text-align: center; 
+            margin-bottom: 10px; 
+            font-size: 2.5em; 
+        }
+        .subtitle { 
+            text-align: center; 
+            color: #666; 
+            margin-bottom: 30px; 
+            font-style: italic; 
+        }
+        .form-group { margin-bottom: 25px; }
+        label { 
+            display: block; 
+            margin-bottom: 8px; 
+            color: #333; 
+            font-weight: bold; 
+            font-size: 1.1em; 
+        }
+        textarea, select { 
+            width: 100%; 
+            padding: 15px; 
+            border: 2px solid #e0e0e0; 
+            border-radius: 10px; 
+            font-size: 16px; 
+            font-family: 'Georgia', serif; 
+            resize: vertical; 
+            min-height: 120px; 
+        }
+        .button { 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+            color: white; 
+            border: none; 
+            padding: 15px 30px; 
+            border-radius: 10px; 
+            font-size: 18px; 
+            font-weight: bold; 
+            cursor: pointer; 
+            width: 100%; 
+            transition: transform 0.3s, box-shadow 0.3s; 
+        }
+        .button:hover { 
+            transform: translateY(-2px); 
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2); 
+        }
+        .result { 
+            display: none; 
+            margin-top: 30px; 
+            padding: 20px; 
+            background: #f8f9fa; 
+            border-radius: 10px; 
+            border-left: 4px solid #667eea; 
+        }
+        .loading { 
+            display: none; 
+            text-align: center; 
+            margin-top: 20px; 
+        }
+        .spinner { 
+            border: 4px solid #f3f3f3; 
+            border-top: 4px solid #667eea; 
+            border-radius: 50%; 
+            width: 40px; 
+            height: 40px; 
+            animation: spin 1s linear infinite; 
+            margin: 0 auto 10px; 
+        }
+        @keyframes spin { 
+            0% { transform: rotate(0deg); } 
+            100% { transform: rotate(360deg); } 
+        }
+        .test-story {
+            background: #e8f4f8;
+            border: 1px solid #bee5eb;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .test-story h3 {
+            color: #0c5460;
+            margin-bottom: 10px;
+        }
+        .test-story p {
+            color: #0c5460;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="test-mode">🧪 TEST MODE - Using Mock AI Responses</div>
+        <h1>AI Research Assistant</h1>
+        <p class="subtitle">For Writers Who Want Authentic Human Voices</p>
+
+        <div class="test-story">
+            <h3>📖 Pre-loaded Test Story</h3>
+            <p><strong>Summary:</strong> A detective investigates a mysterious disappearance in a small coastal town during a foggy winter.</p>
+            <p><strong>Genre:</strong> Noir Detective</p>
+            <p><strong>Plot:</strong> The missing lighthouse keeper case reveals a pattern of disappearances every decade for 50 years.</p>
+        </div>
+
+        <form id="storyForm">
+            <div class="form-group">
+                <label for="summary">Story Summary</label>
+                <textarea id="summary" name="summary" placeholder="Enter your story summary here..." required>A detective investigates a mysterious disappearance in a small coastal town during a foggy winter. The missing person is a local lighthouse keeper who was last seen three days ago. As the detective digs deeper, they uncover secrets about the town's past and realize this might be connected to similar disappearances that have occurred every decade for the past 50 years.</textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="genre">Genre</label>
+                <select id="genre" name="genre" required>
+                    <option value="">Select a genre</option>
+                    <option value="noir_detective" selected>Noir Detective</option>
+                    <option value="fantasy_epic">Fantasy Epic</option>
+                    <option value="modern_high_school">Modern High School</option>
+                    <option value="sci_fi_space">Sci-Fi Space Opera</option>
+                </select>
+            </div>
+
+            <button type="submit" class="button">Generate Chapter (Test Mode)</button>
+        </form>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Mock AI agents are processing your chapter...</p>
+        </div>
+
+        <div class="result" id="result">
+            <h3>Your Generated Chapter</h3>
+            <div class="result-content" id="chapterContent"></div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('storyForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('result').style.display = 'none';
+            
+            const formData = {
+                summary: document.getElementById('summary').value,
+                genre: document.getElementById('genre').value,
+                previous_chapter_id: null
+            };
+
+            try {
+                const response = await fetch('http://localhost:8000/generate-chapter', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formData)
+                });
+
+                const data = await response.json();
+                
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('result').style.display = 'block';
+                document.getElementById('chapterContent').innerHTML = `
+                    <h4>${data.title}</h4>
+                    <p><strong>Word Count:</strong> ${data.word_count}</p>
+                    <p><strong>Chapter ID:</strong> ${data.chapter_id}</p>
+                    <hr>
+                    <p>${data.content.replace(/\\n/g, '<br>')}</p>
+                `;
+                
+            } catch (err) {
+                document.getElementById('loading').style.display = 'none';
+                alert('Error generating chapter: ' + err.message);
+            }
+        });
+    </script>
+</body>
+</html>'''
+        
+        frontend_path = self.project_root / "test_frontend.html"
+        with open(frontend_path, "w") as f:
+            f.write(frontend_content)
+        
+        self.log(f"✅ Test frontend created: {frontend_path}")
+        return frontend_path
+    
+    def run_test(self):
+        """Run a complete test"""
+        self.log("🧪 Running complete system test...")
+        
+        try:
+            import requests
+        except ImportError:
+            subprocess.run([sys.executable, "-m", "pip", "install", "requests"])
+            import requests
+        
+        # Test health endpoint
+        try:
+            response = requests.get("http://localhost:8000/health", timeout=10)
+            if response.status_code == 200:
+                self.log("✅ AI Engine health check passed")
+            else:
+                self.log(f"❌ Health check failed: {response.status_code}")
+                return False
+        except Exception as e:
+            self.log(f"❌ Health check failed: {e}")
+            return False
+        
+        # Test chapter generation
+        self.log("📝 Testing chapter generation...")
+        test_data = {
+            "summary": "A detective investigates a mysterious disappearance in a small coastal town during a foggy winter.",
+            "genre": "noir_detective",
+            "previous_chapter_id": None
+        }
+        
+        try:
+            response = requests.post(
+                "http://localhost:8000/generate-chapter",
+                json=test_data,
+                timeout=60
+            )
+            
+            if response.status_code == 200:
+                result = response.json()
+                self.log("✅ Chapter generation test passed!")
+                self.log(f"   Chapter ID: {result['chapter_id']}")
+                self.log(f"   Title: {result['title']}")
+                self.log(f"   Word Count: {result['word_count']}")
+                self.log(f"   Content Preview: {result['content'][:100]}...")
+                
+                # Save test result
+                test_result = self.project_root / "test_result.json"
+                with open(test_result, "w") as f:
+                    json.dump(result, f, indent=2)
+                self.log(f"✅ Test result saved to: {test_result}")
+                
+                return True
+            else:
+                self.log(f"❌ Chapter generation failed: {response.status_code} - {response.text}")
+                return False
+                
+        except Exception as e:
+            self.log(f"❌ Chapter generation test failed: {e}")
+            return False
+    
+    def signal_handler(self, signum, frame):
+        """Handle shutdown signals"""
+        self.log("🛑 Received shutdown signal...")
+        self.running = False
+        self.shutdown()
+    
+    def shutdown(self):
+        """Shutdown all services"""
+        self.log("🛑 Shutting down services...")
+        for name, process in self.processes.items():
+            if process:
+                try:
+                    process.terminate()
+                    process.wait(timeout=5)
+                    self.log(f"Stopped {name}")
+                except Exception as e:
+                    self.log(f"Error stopping {name}: {e}")
+        
+        self.log("✅ All services stopped")
+    
+    def run(self):
+        """Main execution"""
+        self.log("🚀 Starting AI Research Assistant for Writers (Mock System)...")
+        
+        # Set up signal handlers
+        signal.signal(signal.SIGINT, self.signal_handler)
+        signal.signal(signal.SIGTERM, self.signal_handler)
+        
+        # Create test frontend
+        frontend_path = self.create_test_frontend()
+        
+        # Start AI Engine
+        if not self.start_ai_engine_mock():
+            return False
+        
+        # Wait for services to start
+        self.log("⏳ Waiting for services to start...")
+        time.sleep(5)
+        
+        # Run tests
+        if self.run_test():
+            self.log("✅ All tests passed!")
+        else:
+            self.log("⚠️  Some tests failed, but system is running")
+        
+        # Open browser
+        self.log("🌐 Opening test frontend in browser...")
+        webbrowser.open(f"file://{frontend_path}")
+        
+        self.log("\n🎉 Mock system is ready!")
+        self.log("📖 Test Frontend: Opened in browser")
+        self.log("🔧 AI Engine API: http://localhost:8000")
+        self.log("📚 API Docs: http://localhost:8000/docs")
+        self.log("\nPress Ctrl+C to stop all services")
+        
+        # Keep running
+        try:
+            while self.running:
+                time.sleep(1)
+        except KeyboardInterrupt:
+            pass
+        finally:
+            self.shutdown()
+        
+        return True
+
+if __name__ == "__main__":
+    launcher = MockSystemLauncher()
+    success = launcher.run()
+    sys.exit(0 if success else 1)
+
+

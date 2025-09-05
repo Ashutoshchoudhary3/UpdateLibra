@@ -1,0 +1,36 @@
+{
+  "chapter_id": 4,
+  "title": "The Lighthouse Mystery",
+  "content": "The fog rolled in thick as I stepped out of my car, coating the coastal town in a gray shroud that seemed to swallow both sound and light. Three days missing, they told me. The lighthouse keeper. Last seen walking toward the cliffs, never to return.\n\nI knocked on doors and asked questions. The locals had that look—you know the one. Eyes darting, voices hushed. Everyone knew something; no one wanted to talk. 'Check the old records,' one woman whispered before closing her door.\n\nIn the town hall basement, I found them. Newspaper clippings going back fifty years. Same story, different names. Every ten years, someone vanishes. Always in winter. Always during the fog.\n\nThat's when I understood. This town wasn't just hiding a missing person. It was hiding a pattern—a ritual—something that had been happening long before I arrived. And I was about to become part of it.",
+  "word_count": 149,
+  "chapter_number": 1,
+  "characters": [
+    {
+      "name": "Detective",
+      "description": "The main protagonist investigating the disappearance",
+      "personality": "Cynical, determined, observant",
+      "first_appearance": "Arrives at the coastal town to investigate"
+    },
+    {
+      "name": "Lighthouse Keeper",
+      "description": "The missing person whose disappearance triggers the investigation",
+      "personality": "Mysterious, possibly knew town secrets",
+      "first_appearance": "Mentioned as missing person"
+    }
+  ],
+  "lore": [
+    {
+      "category": "location",
+      "name": "Coastal Town",
+      "description": "Small town with a dark secret of periodic disappearances",
+      "significance": "Setting for the mystery and keeper of secrets"
+    },
+    {
+      "category": "concept",
+      "name": "The Pattern",
+      "description": "Disappearances occurring every decade for 50 years",
+      "significance": "Central mystery that drives the investigation"
+    }
+  ],
+  "previous_chapter_id": null
+}

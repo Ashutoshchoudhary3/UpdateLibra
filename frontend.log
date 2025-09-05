@@ -1,0 +1,51 @@
+Serving HTTP on 0.0.0.0 port 48404 (http://0.0.0.0:48404/) ...
+127.0.0.1 - - [05/Sep/2025 18:48:07] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [05/Sep/2025 18:50:11] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [05/Sep/2025 18:50:11] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 18:50:11] "GET /favicon.ico HTTP/1.1" 404 -
+172.17.0.1 - - [05/Sep/2025 18:54:46] "GET / HTTP/1.1" 304 -
+172.17.0.1 - - [05/Sep/2025 19:02:56] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [05/Sep/2025 19:02:56] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 19:02:56] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [05/Sep/2025 19:04:38] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Sep/2025 19:04:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Sep/2025 19:05:00] "GET / HTTP/1.1" 304 -
+172.17.0.1 - - [05/Sep/2025 19:06:17] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [05/Sep/2025 19:06:17] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 19:06:17] "GET /favicon.ico HTTP/1.1" 404 -
+172.17.0.1 - - [05/Sep/2025 19:06:18] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [05/Sep/2025 19:06:18] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 19:06:18] "GET /favicon.ico HTTP/1.1" 404 -
+172.17.0.1 - - [05/Sep/2025 19:06:19] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [05/Sep/2025 19:06:20] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 19:06:20] "GET /favicon.ico HTTP/1.1" 404 -
+172.17.0.1 - - [05/Sep/2025 19:07:22] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [05/Sep/2025 19:07:22] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 19:07:22] "GET /favicon.ico HTTP/1.1" 404 -
+172.17.0.1 - - [05/Sep/2025 19:07:59] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 19:07:59] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+172.17.0.1 - - [05/Sep/2025 19:11:15] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [05/Sep/2025 19:11:15] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 19:11:15] "GET /favicon.ico HTTP/1.1" 404 -
+172.17.0.1 - - [05/Sep/2025 19:11:15] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 19:11:15] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+172.17.0.1 - - [05/Sep/2025 19:11:17] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [05/Sep/2025 19:11:17] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 19:11:17] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+172.17.0.1 - - [05/Sep/2025 19:11:17] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 19:11:17] "GET /favicon.ico HTTP/1.1" 404 -
+172.17.0.1 - - [05/Sep/2025 19:11:18] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [05/Sep/2025 19:11:18] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 19:11:18] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+172.17.0.1 - - [05/Sep/2025 19:11:18] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 19:11:18] "GET /favicon.ico HTTP/1.1" 404 -
+172.17.0.1 - - [05/Sep/2025 19:11:19] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [05/Sep/2025 19:11:19] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 19:11:19] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+172.17.0.1 - - [05/Sep/2025 19:11:19] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 19:11:19] "GET /favicon.ico HTTP/1.1" 404 -
+172.17.0.1 - - [05/Sep/2025 19:21:48] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [05/Sep/2025 19:21:48] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 19:21:48] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+172.17.0.1 - - [05/Sep/2025 19:21:48] code 404, message File not found
+172.17.0.1 - - [05/Sep/2025 19:21:48] "GET /favicon.ico HTTP/1.1" 404 -

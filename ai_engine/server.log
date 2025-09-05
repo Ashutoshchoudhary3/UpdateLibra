@@ -1,0 +1,1059 @@
+🚀 Starting AI Research Assistant for Writers
+📡 Server running on http://0.0.0.0:8000
+🔗 Scraper service: http://localhost:3001
+INFO:     Started server process [18944]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+🚀 Starting chapter generation for genre: fantasy
+📋 Step 1: Intent Analysis
+IntentAnalyst: Analyzing intent for fantasy story
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated chapter brief: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+Chapter brief created: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+🗺️ Step 2: Scene Scouting
+SceneScout: Deconstructing summary: A young wizard discovers a hidden magical library
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated 4 plot points
+Generated 4 plot points
+🎨 Step 3: Style Analysis
+StyleAnalyst: Researching style guide for fantasy
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Caching style guide for fantasy
+Style guide retrieved: GENRE STYLE GUIDE: 
+
+TONE GUIDELINES:
+
+
+CONVENTIONS AND TROPES:
+
+
+WRITING TECHNIQUES:...
+🧵 Step 4: Master Weaving
+Weaving plot point 1/4: The main character faces an initial challenge or d...
+SceneScout: Generating search query for: The main character faces an initial challenge or discovery
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: The main character faces an initial challenge or d...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 1 woven successfully
+Weaving plot point 2/4: They encounter obstacles and conflicts...
+SceneScout: Generating search query for: They encounter obstacles and conflicts
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They encounter obstacles and conflicts...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 2 woven successfully
+Weaving plot point 3/4: They learn something important about themselves or...
+SceneScout: Generating search query for: They learn something important about themselves or the world
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They learn something important about themselves or...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 3 woven successfully
+Weaving plot point 4/4: They reach a resolution or transformation...
+SceneScout: Generating search query for: They reach a resolution or transformation
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They reach a resolution or transformation...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 4 woven successfully
+Raw chapter created: 594 characters
+✨ Step 5: Correction & Polish
+CorrectionPolishAI: Polishing chapter (594 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Chapter polished: 147 characters
+🏗️ Step 6: World Building
+CharacterExtractor: Analyzing chapter for characters (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini character extraction failed: Expecting value: line 1 column 1 (char 0)
+LoreMaster: Analyzing chapter for world-building elements (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini lore extraction failed: Expecting value: line 1 column 1 (char 0)
+Extracted 1 characters and 1 lore entries
+✅ Chapter generation complete!
+INFO:     127.0.0.1:52614 - "POST /generate-chapter HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46144 - "GET /chapters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58382 - "OPTIONS /generate-chapter HTTP/1.1" 200 OK
+🚀 Starting chapter generation for genre: noir_detective
+📋 Step 1: Intent Analysis
+IntentAnalyst: Analyzing intent for noir_detective story
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated chapter brief: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+Chapter brief created: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+🗺️ Step 2: Scene Scouting
+SceneScout: Deconstructing summary: A detective investigates a mysterious disappearance in a small coastal town during a foggy winter.
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated 4 plot points
+Generated 4 plot points
+🎨 Step 3: Style Analysis
+StyleAnalyst: Researching style guide for noir_detective
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Caching style guide for noir_detective
+Style guide retrieved: GENRE STYLE GUIDE: 
+
+TONE GUIDELINES:
+
+
+CONVENTIONS AND TROPES:
+
+
+WRITING TECHNIQUES:...
+🧵 Step 4: Master Weaving
+Weaving plot point 1/4: The main character faces an initial challenge or d...
+SceneScout: Generating search query for: The main character faces an initial challenge or discovery
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: The main character faces an initial challenge or d...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 1 woven successfully
+Weaving plot point 2/4: They encounter obstacles and conflicts...
+SceneScout: Generating search query for: They encounter obstacles and conflicts
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They encounter obstacles and conflicts...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 2 woven successfully
+Weaving plot point 3/4: They learn something important about themselves or...
+SceneScout: Generating search query for: They learn something important about themselves or the world
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They learn something important about themselves or...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 3 woven successfully
+Weaving plot point 4/4: They reach a resolution or transformation...
+SceneScout: Generating search query for: They reach a resolution or transformation
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They reach a resolution or transformation...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 4 woven successfully
+Raw chapter created: 594 characters
+✨ Step 5: Correction & Polish
+CorrectionPolishAI: Polishing chapter (594 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Chapter polished: 147 characters
+🏗️ Step 6: World Building
+CharacterExtractor: Analyzing chapter for characters (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini character extraction failed: Expecting value: line 1 column 1 (char 0)
+LoreMaster: Analyzing chapter for world-building elements (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini lore extraction failed: Expecting value: line 1 column 1 (char 0)
+Extracted 1 characters and 1 lore entries
+✅ Chapter generation complete!
+INFO:     127.0.0.1:58398 - "POST /generate-chapter HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58398 - "GET /chapters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39100 - "GET /health HTTP/1.1" 200 OK
+🚀 Starting chapter generation for genre: noir_detective
+📋 Step 1: Intent Analysis
+IntentAnalyst: Analyzing intent for noir_detective story
+Gemini API request failed: 
+Generated chapter brief: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+Chapter brief created: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+🗺️ Step 2: Scene Scouting
+SceneScout: Deconstructing summary: A detective investigates a mysterious disappearance in a small coastal town during a foggy winter.
+Gemini API request failed: 
+Generated 4 plot points
+Generated 4 plot points
+🎨 Step 3: Style Analysis
+StyleAnalyst: Researching style guide for noir_detective
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Caching style guide for noir_detective
+Style guide retrieved: GENRE STYLE GUIDE: 
+
+TONE GUIDELINES:
+
+
+CONVENTIONS AND TROPES:
+
+
+WRITING TECHNIQUES:...
+🧵 Step 4: Master Weaving
+Weaving plot point 1/4: The main character faces an initial challenge or d...
+SceneScout: Generating search query for: The main character faces an initial challenge or discovery
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: The main character faces an initial challenge or d...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 1 woven successfully
+Weaving plot point 2/4: They encounter obstacles and conflicts...
+SceneScout: Generating search query for: They encounter obstacles and conflicts
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They encounter obstacles and conflicts...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 2 woven successfully
+Weaving plot point 3/4: They learn something important about themselves or...
+SceneScout: Generating search query for: They learn something important about themselves or the world
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They learn something important about themselves or...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 3 woven successfully
+Weaving plot point 4/4: They reach a resolution or transformation...
+SceneScout: Generating search query for: They reach a resolution or transformation
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They reach a resolution or transformation...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 4 woven successfully
+Raw chapter created: 594 characters
+✨ Step 5: Correction & Polish
+CorrectionPolishAI: Polishing chapter (594 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Chapter polished: 147 characters
+🏗️ Step 6: World Building
+CharacterExtractor: Analyzing chapter for characters (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini character extraction failed: Expecting value: line 1 column 1 (char 0)
+LoreMaster: Analyzing chapter for world-building elements (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini lore extraction failed: Expecting value: line 1 column 1 (char 0)
+Extracted 1 characters and 1 lore entries
+✅ Chapter generation complete!
+INFO:     127.0.0.1:39612 - "GET /health HTTP/1.1" 200 OK
+🚀 Starting chapter generation for genre: noir_detective
+📋 Step 1: Intent Analysis
+IntentAnalyst: Analyzing intent for noir_detective story
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated chapter brief: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+Chapter brief created: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+🗺️ Step 2: Scene Scouting
+SceneScout: Deconstructing summary: A detective investigates a mysterious disappearance in a small coastal town during a foggy winter.
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated 4 plot points
+Generated 4 plot points
+🎨 Step 3: Style Analysis
+StyleAnalyst: Researching style guide for noir_detective
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Caching style guide for noir_detective
+Style guide retrieved: GENRE STYLE GUIDE: 
+
+TONE GUIDELINES:
+
+
+CONVENTIONS AND TROPES:
+
+
+WRITING TECHNIQUES:...
+🧵 Step 4: Master Weaving
+Weaving plot point 1/4: The main character faces an initial challenge or d...
+SceneScout: Generating search query for: The main character faces an initial challenge or discovery
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: The main character faces an initial challenge or d...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 1 woven successfully
+Weaving plot point 2/4: They encounter obstacles and conflicts...
+SceneScout: Generating search query for: They encounter obstacles and conflicts
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They encounter obstacles and conflicts...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 2 woven successfully
+Weaving plot point 3/4: They learn something important about themselves or...
+SceneScout: Generating search query for: They learn something important about themselves or the world
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They learn something important about themselves or...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 3 woven successfully
+Weaving plot point 4/4: They reach a resolution or transformation...
+SceneScout: Generating search query for: They reach a resolution or transformation
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They reach a resolution or transformation...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 4 woven successfully
+Raw chapter created: 594 characters
+✨ Step 5: Correction & Polish
+CorrectionPolishAI: Polishing chapter (594 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Chapter polished: 147 characters
+🏗️ Step 6: World Building
+CharacterExtractor: Analyzing chapter for characters (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini character extraction failed: Expecting value: line 1 column 1 (char 0)
+LoreMaster: Analyzing chapter for world-building elements (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini lore extraction failed: Expecting value: line 1 column 1 (char 0)
+Extracted 1 characters and 1 lore entries
+✅ Chapter generation complete!
+INFO:     127.0.0.1:39626 - "POST /generate-chapter HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45200 - "GET /health HTTP/1.1" 200 OK
+🚀 Starting chapter generation for genre: noir_detective
+📋 Step 1: Intent Analysis
+IntentAnalyst: Analyzing intent for noir_detective story
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated chapter brief: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+Chapter brief created: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+🗺️ Step 2: Scene Scouting
+SceneScout: Deconstructing summary: A detective investigates a mysterious disappearance in a small coastal town during a foggy winter.
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated 4 plot points
+Generated 4 plot points
+🎨 Step 3: Style Analysis
+StyleAnalyst: Researching style guide for noir_detective
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Caching style guide for noir_detective
+Style guide retrieved: GENRE STYLE GUIDE: 
+
+TONE GUIDELINES:
+
+
+CONVENTIONS AND TROPES:
+
+
+WRITING TECHNIQUES:...
+🧵 Step 4: Master Weaving
+Weaving plot point 1/4: The main character faces an initial challenge or d...
+SceneScout: Generating search query for: The main character faces an initial challenge or discovery
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: The main character faces an initial challenge or d...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 1 woven successfully
+Weaving plot point 2/4: They encounter obstacles and conflicts...
+SceneScout: Generating search query for: They encounter obstacles and conflicts
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They encounter obstacles and conflicts...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 2 woven successfully
+Weaving plot point 3/4: They learn something important about themselves or...
+SceneScout: Generating search query for: They learn something important about themselves or the world
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They learn something important about themselves or...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 3 woven successfully
+Weaving plot point 4/4: They reach a resolution or transformation...
+SceneScout: Generating search query for: They reach a resolution or transformation
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They reach a resolution or transformation...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 4 woven successfully
+Raw chapter created: 594 characters
+✨ Step 5: Correction & Polish
+CorrectionPolishAI: Polishing chapter (594 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Chapter polished: 147 characters
+🏗️ Step 6: World Building
+CharacterExtractor: Analyzing chapter for characters (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini character extraction failed: Expecting value: line 1 column 1 (char 0)
+LoreMaster: Analyzing chapter for world-building elements (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini lore extraction failed: Expecting value: line 1 column 1 (char 0)
+Extracted 1 characters and 1 lore entries
+✅ Chapter generation complete!
+INFO:     127.0.0.1:45212 - "POST /generate-chapter HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35774 - "GET /health HTTP/1.1" 200 OK
+🚀 Starting chapter generation for genre: noir_detective
+📋 Step 1: Intent Analysis
+IntentAnalyst: Analyzing intent for noir_detective story
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated chapter brief: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+Chapter brief created: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+🗺️ Step 2: Scene Scouting
+SceneScout: Deconstructing summary: A detective investigates a mysterious disappearance in a small coastal town during a foggy winter.
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated 4 plot points
+Generated 4 plot points
+🎨 Step 3: Style Analysis
+StyleAnalyst: Researching style guide for noir_detective
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Caching style guide for noir_detective
+Style guide retrieved: GENRE STYLE GUIDE: 
+
+TONE GUIDELINES:
+
+
+CONVENTIONS AND TROPES:
+
+
+WRITING TECHNIQUES:...
+🧵 Step 4: Master Weaving
+Weaving plot point 1/4: The main character faces an initial challenge or d...
+SceneScout: Generating search query for: The main character faces an initial challenge or discovery
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: The main character faces an initial challenge or d...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 1 woven successfully
+Weaving plot point 2/4: They encounter obstacles and conflicts...
+SceneScout: Generating search query for: They encounter obstacles and conflicts
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They encounter obstacles and conflicts...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 2 woven successfully
+Weaving plot point 3/4: They learn something important about themselves or...
+SceneScout: Generating search query for: They learn something important about themselves or the world
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They learn something important about themselves or...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 3 woven successfully
+Weaving plot point 4/4: They reach a resolution or transformation...
+SceneScout: Generating search query for: They reach a resolution or transformation
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They reach a resolution or transformation...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 4 woven successfully
+Raw chapter created: 594 characters
+✨ Step 5: Correction & Polish
+CorrectionPolishAI: Polishing chapter (594 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Chapter polished: 147 characters
+🏗️ Step 6: World Building
+CharacterExtractor: Analyzing chapter for characters (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini character extraction failed: Expecting value: line 1 column 1 (char 0)
+LoreMaster: Analyzing chapter for world-building elements (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini lore extraction failed: Expecting value: line 1 column 1 (char 0)
+Extracted 1 characters and 1 lore entries
+✅ Chapter generation complete!
+INFO:     127.0.0.1:35784 - "POST /generate-chapter HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40880 - "GET /health HTTP/1.1" 200 OK
+🚀 Starting chapter generation for genre: noir_detective
+📋 Step 1: Intent Analysis
+IntentAnalyst: Analyzing intent for noir_detective story
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated chapter brief: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+Chapter brief created: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+🗺️ Step 2: Scene Scouting
+SceneScout: Deconstructing summary: A detective investigates a mysterious disappearance in a small coastal town during a foggy winter.
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated 4 plot points
+Generated 4 plot points
+🎨 Step 3: Style Analysis
+StyleAnalyst: Researching style guide for noir_detective
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Caching style guide for noir_detective
+Style guide retrieved: GENRE STYLE GUIDE: 
+
+TONE GUIDELINES:
+
+
+CONVENTIONS AND TROPES:
+
+
+WRITING TECHNIQUES:...
+🧵 Step 4: Master Weaving
+Weaving plot point 1/4: The main character faces an initial challenge or d...
+SceneScout: Generating search query for: The main character faces an initial challenge or discovery
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: The main character faces an initial challenge or d...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 1 woven successfully
+Weaving plot point 2/4: They encounter obstacles and conflicts...
+SceneScout: Generating search query for: They encounter obstacles and conflicts
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They encounter obstacles and conflicts...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 2 woven successfully
+Weaving plot point 3/4: They learn something important about themselves or...
+SceneScout: Generating search query for: They learn something important about themselves or the world
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They learn something important about themselves or...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 3 woven successfully
+Weaving plot point 4/4: They reach a resolution or transformation...
+SceneScout: Generating search query for: They reach a resolution or transformation
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They reach a resolution or transformation...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 4 woven successfully
+Raw chapter created: 594 characters
+✨ Step 5: Correction & Polish
+CorrectionPolishAI: Polishing chapter (594 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Chapter polished: 147 characters
+🏗️ Step 6: World Building
+CharacterExtractor: Analyzing chapter for characters (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini character extraction failed: Expecting value: line 1 column 1 (char 0)
+LoreMaster: Analyzing chapter for world-building elements (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini lore extraction failed: Expecting value: line 1 column 1 (char 0)
+Extracted 1 characters and 1 lore entries
+✅ Chapter generation complete!
+INFO:     127.0.0.1:40888 - "POST /generate-chapter HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57660 - "GET /health HTTP/1.1" 200 OK
+🚀 Starting chapter generation for genre: noir_detective
+📋 Step 1: Intent Analysis
+IntentAnalyst: Analyzing intent for noir_detective story
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated chapter brief: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+Chapter brief created: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+🗺️ Step 2: Scene Scouting
+SceneScout: Deconstructing summary: A detective investigates a mysterious disappearance in a small coastal town during a foggy winter.
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated 4 plot points
+Generated 4 plot points
+🎨 Step 3: Style Analysis
+StyleAnalyst: Researching style guide for noir_detective
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Caching style guide for noir_detective
+Style guide retrieved: GENRE STYLE GUIDE: 
+
+TONE GUIDELINES:
+
+
+CONVENTIONS AND TROPES:
+
+
+WRITING TECHNIQUES:...
+🧵 Step 4: Master Weaving
+Weaving plot point 1/4: The main character faces an initial challenge or d...
+SceneScout: Generating search query for: The main character faces an initial challenge or discovery
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: The main character faces an initial challenge or d...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 1 woven successfully
+Weaving plot point 2/4: They encounter obstacles and conflicts...
+SceneScout: Generating search query for: They encounter obstacles and conflicts
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They encounter obstacles and conflicts...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 2 woven successfully
+Weaving plot point 3/4: They learn something important about themselves or...
+SceneScout: Generating search query for: They learn something important about themselves or the world
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They learn something important about themselves or...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 3 woven successfully
+Weaving plot point 4/4: They reach a resolution or transformation...
+SceneScout: Generating search query for: They reach a resolution or transformation
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They reach a resolution or transformation...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 4 woven successfully
+Raw chapter created: 594 characters
+✨ Step 5: Correction & Polish
+CorrectionPolishAI: Polishing chapter (594 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Chapter polished: 147 characters
+🏗️ Step 6: World Building
+CharacterExtractor: Analyzing chapter for characters (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini character extraction failed: Expecting value: line 1 column 1 (char 0)
+LoreMaster: Analyzing chapter for world-building elements (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini lore extraction failed: Expecting value: line 1 column 1 (char 0)
+Extracted 1 characters and 1 lore entries
+✅ Chapter generation complete!
+INFO:     127.0.0.1:57670 - "POST /generate-chapter HTTP/1.1" 200 OK
+🚀 Starting chapter generation for genre: noir_detective
+📋 Step 1: Intent Analysis
+IntentAnalyst: Analyzing intent for noir_detective story
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated chapter brief: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+Chapter brief created: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+🗺️ Step 2: Scene Scouting
+SceneScout: Deconstructing summary: A detective investigates a mysterious disappearance in a small coastal town during a foggy winter.
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated 4 plot points
+Generated 4 plot points
+🎨 Step 3: Style Analysis
+StyleAnalyst: Researching style guide for noir_detective
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Caching style guide for noir_detective
+Style guide retrieved: GENRE STYLE GUIDE: 
+
+TONE GUIDELINES:
+
+
+CONVENTIONS AND TROPES:
+
+
+WRITING TECHNIQUES:...
+🧵 Step 4: Master Weaving
+Weaving plot point 1/4: The main character faces an initial challenge or d...
+SceneScout: Generating search query for: The main character faces an initial challenge or discovery
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: The main character faces an initial challenge or d...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 1 woven successfully
+Weaving plot point 2/4: They encounter obstacles and conflicts...
+SceneScout: Generating search query for: They encounter obstacles and conflicts
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They encounter obstacles and conflicts...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 2 woven successfully
+Weaving plot point 3/4: They learn something important about themselves or...
+SceneScout: Generating search query for: They learn something important about themselves or the world
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They learn something important about themselves or...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 3 woven successfully
+Weaving plot point 4/4: They reach a resolution or transformation...
+SceneScout: Generating search query for: They reach a resolution or transformation
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They reach a resolution or transformation...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 4 woven successfully
+Raw chapter created: 594 characters
+✨ Step 5: Correction & Polish
+CorrectionPolishAI: Polishing chapter (594 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Chapter polished: 147 characters
+🏗️ Step 6: World Building
+CharacterExtractor: Analyzing chapter for characters (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini character extraction failed: Expecting value: line 1 column 1 (char 0)
+LoreMaster: Analyzing chapter for world-building elements (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini lore extraction failed: Expecting value: line 1 column 1 (char 0)
+Extracted 1 characters and 1 lore entries
+✅ Chapter generation complete!
+🚀 Starting chapter generation for genre: noir_detective
+📋 Step 1: Intent Analysis
+IntentAnalyst: Analyzing intent for noir_detective story
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated chapter brief: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+Chapter brief created: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+🗺️ Step 2: Scene Scouting
+SceneScout: Deconstructing summary: A detective investigates a mysterious disappearance in a small coastal town during a foggy winter.
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated 4 plot points
+Generated 4 plot points
+🎨 Step 3: Style Analysis
+StyleAnalyst: Researching style guide for noir_detective
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Caching style guide for noir_detective
+Style guide retrieved: GENRE STYLE GUIDE: 
+
+TONE GUIDELINES:
+
+
+CONVENTIONS AND TROPES:
+
+
+WRITING TECHNIQUES:...
+🧵 Step 4: Master Weaving
+Weaving plot point 1/4: The main character faces an initial challenge or d...
+SceneScout: Generating search query for: The main character faces an initial challenge or discovery
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: The main character faces an initial challenge or d...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 1 woven successfully
+Weaving plot point 2/4: They encounter obstacles and conflicts...
+SceneScout: Generating search query for: They encounter obstacles and conflicts
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They encounter obstacles and conflicts...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 2 woven successfully
+Weaving plot point 3/4: They learn something important about themselves or...
+SceneScout: Generating search query for: They learn something important about themselves or the world
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They learn something important about themselves or...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 3 woven successfully
+Weaving plot point 4/4: They reach a resolution or transformation...
+SceneScout: Generating search query for: They reach a resolution or transformation
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They reach a resolution or transformation...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 4 woven successfully
+Raw chapter created: 594 characters
+✨ Step 5: Correction & Polish
+CorrectionPolishAI: Polishing chapter (594 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Chapter polished: 147 characters
+🏗️ Step 6: World Building
+CharacterExtractor: Analyzing chapter for characters (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini character extraction failed: Expecting value: line 1 column 1 (char 0)
+LoreMaster: Analyzing chapter for world-building elements (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini lore extraction failed: Expecting value: line 1 column 1 (char 0)
+Extracted 1 characters and 1 lore entries
+✅ Chapter generation complete!
+INFO:     127.0.0.1:48700 - "GET /docs HTTP/1.1" 200 OK
+🚀 Starting chapter generation for genre: noir_detective
+📋 Step 1: Intent Analysis
+IntentAnalyst: Analyzing intent for noir_detective story
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated chapter brief: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+Chapter brief created: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+🗺️ Step 2: Scene Scouting
+SceneScout: Deconstructing summary: A detective investigates a mysterious disappearance in a small coastal town during a foggy winter.
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated 4 plot points
+Generated 4 plot points
+🎨 Step 3: Style Analysis
+StyleAnalyst: Researching style guide for noir_detective
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Caching style guide for noir_detective
+Style guide retrieved: GENRE STYLE GUIDE: 
+
+TONE GUIDELINES:
+
+
+CONVENTIONS AND TROPES:
+
+
+WRITING TECHNIQUES:...
+🧵 Step 4: Master Weaving
+Weaving plot point 1/4: The main character faces an initial challenge or d...
+SceneScout: Generating search query for: The main character faces an initial challenge or discovery
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: The main character faces an initial challenge or d...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 1 woven successfully
+Weaving plot point 2/4: They encounter obstacles and conflicts...
+SceneScout: Generating search query for: They encounter obstacles and conflicts
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They encounter obstacles and conflicts...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 2 woven successfully
+Weaving plot point 3/4: They learn something important about themselves or...
+SceneScout: Generating search query for: They learn something important about themselves or the world
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They learn something important about themselves or...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 3 woven successfully
+Weaving plot point 4/4: They reach a resolution or transformation...
+SceneScout: Generating search query for: They reach a resolution or transformation
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They reach a resolution or transformation...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 4 woven successfully
+Raw chapter created: 594 characters
+✨ Step 5: Correction & Polish
+CorrectionPolishAI: Polishing chapter (594 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Chapter polished: 147 characters
+🏗️ Step 6: World Building
+CharacterExtractor: Analyzing chapter for characters (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini character extraction failed: Expecting value: line 1 column 1 (char 0)
+LoreMaster: Analyzing chapter for world-building elements (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini lore extraction failed: Expecting value: line 1 column 1 (char 0)
+Extracted 1 characters and 1 lore entries
+✅ Chapter generation complete!
+INFO:     127.0.0.1:43670 - "POST /generate-chapter HTTP/1.1" 200 OK
+🚀 Starting chapter generation for genre: noir_detective
+📋 Step 1: Intent Analysis
+IntentAnalyst: Analyzing intent for noir_detective story
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated chapter brief: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+Chapter brief created: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+🗺️ Step 2: Scene Scouting
+SceneScout: Deconstructing summary: A detective investigates a mysterious disappearance in a small coastal town during a foggy winter.
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated 4 plot points
+Generated 4 plot points
+🎨 Step 3: Style Analysis
+StyleAnalyst: Researching style guide for noir_detective
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Caching style guide for noir_detective
+Style guide retrieved: GENRE STYLE GUIDE: 
+
+TONE GUIDELINES:
+
+
+CONVENTIONS AND TROPES:
+
+
+WRITING TECHNIQUES:...
+🧵 Step 4: Master Weaving
+Weaving plot point 1/4: The main character faces an initial challenge or d...
+SceneScout: Generating search query for: The main character faces an initial challenge or discovery
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: The main character faces an initial challenge or d...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 1 woven successfully
+Weaving plot point 2/4: They encounter obstacles and conflicts...
+SceneScout: Generating search query for: They encounter obstacles and conflicts
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They encounter obstacles and conflicts...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 2 woven successfully
+Weaving plot point 3/4: They learn something important about themselves or...
+SceneScout: Generating search query for: They learn something important about themselves or the world
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They learn something important about themselves or...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 3 woven successfully
+Weaving plot point 4/4: They reach a resolution or transformation...
+SceneScout: Generating search query for: They reach a resolution or transformation
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They reach a resolution or transformation...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 4 woven successfully
+Raw chapter created: 594 characters
+✨ Step 5: Correction & Polish
+CorrectionPolishAI: Polishing chapter (594 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Chapter polished: 147 characters
+🏗️ Step 6: World Building
+CharacterExtractor: Analyzing chapter for characters (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini character extraction failed: Expecting value: line 1 column 1 (char 0)
+LoreMaster: Analyzing chapter for world-building elements (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini lore extraction failed: Expecting value: line 1 column 1 (char 0)
+Extracted 1 characters and 1 lore entries
+✅ Chapter generation complete!
+INFO:     127.0.0.1:38520 - "POST /generate-chapter HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55130 - "GET /docs HTTP/1.1" 200 OK
+🚀 Starting chapter generation for genre: noir_detective
+📋 Step 1: Intent Analysis
+IntentAnalyst: Analyzing intent for noir_detective story
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated chapter brief: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+Chapter brief created: The character analysis reveals a complex individual with layered motivations and distinct personalit...
+🗺️ Step 2: Scene Scouting
+SceneScout: Deconstructing summary: A detective investigates a mysterious disappearance in a small coastal town during a foggy winter.
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated 4 plot points
+Generated 4 plot points
+🎨 Step 3: Style Analysis
+StyleAnalyst: Researching style guide for noir_detective
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Caching style guide for noir_detective
+Style guide retrieved: GENRE STYLE GUIDE: 
+
+TONE GUIDELINES:
+
+
+CONVENTIONS AND TROPES:
+
+
+WRITING TECHNIQUES:...
+🧵 Step 4: Master Weaving
+Weaving plot point 1/4: The main character faces an initial challenge or d...
+SceneScout: Generating search query for: The main character faces an initial challenge or discovery
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: The main character faces an initial challenge or d...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 1 woven successfully
+Weaving plot point 2/4: They encounter obstacles and conflicts...
+SceneScout: Generating search query for: They encounter obstacles and conflicts
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They encounter obstacles and conflicts...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 2 woven successfully
+Weaving plot point 3/4: They learn something important about themselves or...
+SceneScout: Generating search query for: They learn something important about themselves or the world
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They learn something important about themselves or...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 3 woven successfully
+Weaving plot point 4/4: They reach a resolution or transformation...
+SceneScout: Generating search query for: They reach a resolution or transformation
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Generated search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Search query: The character analysis reveals a complex individual with layered motivations and distinct personality traits that will drive the narrative forward.
+Scraper service error: 500
+Scraped 179 characters of content
+MasterWeaver: Weaving content for plot point: They reach a resolution or transformation...
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Section 4 woven successfully
+Raw chapter created: 594 characters
+✨ Step 5: Correction & Polish
+CorrectionPolishAI: Polishing chapter (594 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Chapter polished: 147 characters
+🏗️ Step 6: World Building
+CharacterExtractor: Analyzing chapter for characters (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini character extraction failed: Expecting value: line 1 column 1 (char 0)
+LoreMaster: Analyzing chapter for world-building elements (147 characters)
+Gemini API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+Gemini lore extraction failed: Expecting value: line 1 column 1 (char 0)
+Extracted 1 characters and 1 lore entries
+✅ Chapter generation complete!
+INFO:     127.0.0.1:55134 - "POST /generate-chapter HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18944]
